@@ -38,4 +38,4 @@ There is currently an official list of webs: here is the link
 
 Send your pool request
 
-https://github.com/absucc/nanoilist
+https://absucc.github.io/nanoilist
