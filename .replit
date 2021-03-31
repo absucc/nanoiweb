@@ -1,2 +1,2 @@
 language = "php"
-run = "cd src & php -S 0.0.0.0:8000"
+run = "sh replit.sh"
