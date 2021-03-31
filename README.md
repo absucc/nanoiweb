@@ -30,6 +30,12 @@ Sure!
 2. Go to the folder "src"
 3. Edit stuff in the directory "config"
 5. Start with `php -S localhost:8000`
-### Follow the development
+## Follow the development
 - [GitHub](https://github.com/absucc/nanoiweb)
 - [Tildegit](https://tildegit.org/nanoiweb)
+## Watch Nanoiwebs
+There is currently an official list of webs: here is the link
+
+Send your pool request
+
+https://github.com/absucc/nanoilist
