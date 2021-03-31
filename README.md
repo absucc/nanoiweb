@@ -1,4 +1,4 @@
-# Nanoiweb [in development]
+# Nanoiweb
 Make a self-hosted Instagram like webpage
 ## Features
 - Custom CSS
