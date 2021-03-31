@@ -8,7 +8,7 @@ Make a self-hosted Instagram like webpage
 - Share photos and videos
 ## Install
 ### Repl.it [![Run on Repl.it](https://repl.it/badge/github/absucc/nanoiweb)](https://repl.it/github/absucc/nanoiweb)
-### Heroku (with GitHub) [EXPERIMENTAL]
+### Heroku (with GitHub)
 1. Fork this repo
 2. Edit stuff in the directory "config"
 3. Enter to Heroku
@@ -18,7 +18,10 @@ Make a self-hosted Instagram like webpage
 7. Automatic deploys > Select a branch in "Choose a branch to deploy" > Enable Automatic Deploys
 8. Manual deploy > Select the same branch > Deploy Branch
 ### Webservers 
-1. 
+1. Download this repo
+2. Put the folder "src" whatever you want
+3. Edit stuff in the directory "config"
+4. Ready
 ### PHP built in server 
 1. Download this repo
 2. Go to the folder "src"
