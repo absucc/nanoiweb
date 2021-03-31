@@ -34,5 +34,3 @@ if(isset($_GET["n"])){
 } else {
   include "404.php";
 } ?>
-</body>
-</html>
