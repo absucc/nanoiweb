@@ -7,10 +7,8 @@ Make a self-hosted Instagram like webpage
 - No MySQL, SQLite or MariaDB
 - Share photos and videos
 ## Install
-### Install on Repl.it
-1. [![Run on Repl.it](https://repl.it/badge/github/absucc/nanoiweb)](https://repl.it/github/absucc/nanoiweb)
-### Install on Heroku
-1. [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/absucc/nanoiweb)
+### Insta-install
+[![Run on Repl.it](https://repl.it/badge/github/absucc/nanoiweb)](https://repl.it/github/absucc/nanoiweb) [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/absucc/nanoiweb)
 ### Webservers
 1. 
 ### PHP built in server
