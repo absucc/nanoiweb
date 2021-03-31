@@ -28,5 +28,3 @@ if(isset($_GET["t"])){
 } else {
   include "404.php";
 } ?>
-</body>
-</html>
