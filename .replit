@@ -1,2 +1,2 @@
-language = "php"
+language = "bash"
 run = "sh replit.sh"
