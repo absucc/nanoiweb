@@ -1,4 +1,4 @@
-<?php include "config/general.php"; include "config/images.php"; $webtitle=$WEBSITE_NAME; $pub=False; include "includes/header.php";
+<?php if(isset($_GET["lol"])){echo"<div style='text-align:center'><h1>Nanoiweb</h1>lololol</div>";}else{ include "config/general.php"; include "config/images.php"; $webtitle=$WEBSITE_NAME; $pub=False; include "includes/header.php";
 $a = $number_on_data -1;
 $ao = 0;
 $next = $a + 1;
@@ -9,4 +9,4 @@ while($ao < $number_on_data){
 }
 
 echo "  </div>\n";
-include "includes/footer.php"; ?>
+include "includes/footer.php"; } ?>
