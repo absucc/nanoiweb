@@ -32,10 +32,8 @@ Sure!
 5. Start with `php -S localhost:8000`
 ## Follow the development
 - [GitHub](https://github.com/absucc/nanoiweb)
-- [Tildegit](https://tildegit.org/nanoiweb)
+- [Tildegit (Moded Gitea)](https://tildegit.org/lucas/nanoiweb)
 ## Watch Nanoiwebs
-There is currently an official list of webs: here is the link
+There is currently an official list of webs: https://absucc.github.io/nanoilist
 
-Send your pool request
-
-https://absucc.github.io/nanoilist
+Send your pull request
