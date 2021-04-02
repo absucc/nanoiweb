@@ -9,6 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+<div class="main-content">
 <header>
 <?php if($WEBSITE_HTACCESS==True){$prefix_pub="p'";}else{$prefix_pub="pub.php?n=";}
 if($WEBSITE_HTACCESS==True){$prefix_htag="h'";}else{$prefix_htag="htag.php?t=";}
@@ -24,4 +25,3 @@ if($pub==True) {
 } ?>
 
 </header>
-<div class="main-content">
