@@ -6,6 +6,8 @@ Make a self-hosted Instagram like webpage
 - Easy to Install
 - No MySQL, SQLite or MariaDB
 - Share photos and videos
+## Requirements
+- PHP
 ## Install
 ### Do you want to test the software after running it?
 Sure!
