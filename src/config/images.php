@@ -1,7 +1,6 @@
 <?php
 /* First URL of the type of media (image/video), then the title/text of the content, later an image, and, if the content is a video, the video file
 The first thing in the variable is the oldest publication
-Don't forget to count all your posts and put the number in $number_on_data
 Please use correctly the ","
 Use the following example to make your own images.php
 Good luck! */
