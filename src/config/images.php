@@ -5,7 +5,6 @@ Don't forget to count all your posts and put the number in $number_on_data
 Please use correctly the ","
 Use the following example to make your own images.php
 Good luck! */
-$number_on_data = 2;
 $data = [
   [
     "image",
