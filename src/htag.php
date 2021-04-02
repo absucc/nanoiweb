@@ -10,6 +10,7 @@ if(isset($_GET["t"])){
   $webtitle = $WEBSITE_NAME.': #'.$string;
 
   include "includes/header.php";
+  echo "<div class='feed'>";
   while($a < $number_on_data){
     $title = strtolower($data[$a][1]);
     $sw = explode(" ", $title);
@@ -18,12 +19,13 @@ if(isset($_GET["t"])){
     $hash = "#".$string;
     while ($i < $count_sw) {
       if (substr($sw[$i], 0, number_format(strlen($_GET["t"])) + 1) == $hash) {
-        echo "  <a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
+        echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
       }
       $i++;
     }
     $a++; $next++;
   }
+  echo "\n</div>";
   include "includes/footer.php";
 } else {
   include "404.php";
