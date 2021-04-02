@@ -11,7 +11,7 @@ if(isset($_GET["t"])){
 
   include "includes/header.php";
   echo "<div class='feed'>";
-  while($a < $number_on_data){
+  while($a < count($data)){
     $title = strtolower($data[$a][1]);
     $sw = explode(" ", $title);
     $count_sw = count($sw);
