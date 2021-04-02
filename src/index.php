@@ -2,11 +2,11 @@
 $a = $number_on_data -1;
 $ao = 0;
 $next = $a + 1;
-echo "  <div class='feed'>\n";
+echo "<div class='feed'>\n";
 while($ao < $number_on_data){
-  echo "    <a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
+  echo "<a href='$prefix_pub$next'><span class='mini'><img src='".$data[$a][2]."' title='".$data[$a][1]."'></span></a>";
   $a--; $ao++; $next--;
 }
 
-echo "  </div>\n";
+echo "\n</div>\n";
 include "includes/footer.php"; } ?>
