@@ -13,8 +13,8 @@ if($WEBSITE_HTACCESS==True){$htaccess="p'";}else{$htaccess="pub.php?n=";}
 <link><?php echo $eee ?></link>
 <?php if($WEBSITE_PROFILE_URL==True){echo "<image>\n  <url>$WEBSITE_PROFILE_URL</url>\n  <title>Photo</title>\n  <link>$eee</link></image>\n";} ?>
 </image>
-<?php $a = $number_on_data -1; $ao = 0; $next = $a + 1;
-while($ao < $number_on_data){
+<?php $a = count($data) -1; $ao = 0; $next = $a + 1;
+while($ao < count($data)){
   echo "<item>\n<title>".$data[$a][1]."</title>\n<link>$eee$htaccess$next</link>\n<guid>$eee$htaccess$next</guid>\n<description>".$data[$a][1]."</description>\n</item>\n";
   $a--; $ao++; $next--;
 } ?>
